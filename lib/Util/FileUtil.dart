@@ -22,10 +22,11 @@ class FileUtil {
       final files = uploadInput.files;
       if (files.length == 1) {
         final file = files[0];
+
         FileReader reader = FileReader();
 
         reader.onLoadEnd.listen((e) {
-          this.resultCallBack(reader.result);
+          this.resultCallBack(reader.result, file.name);
         });
 
         reader.onError.listen((fileEvent) {
@@ -38,4 +39,4 @@ class FileUtil {
   }
 }
 
-typedef ResultCallBack = void Function(Uint8List uint8list);
+typedef ResultCallBack = void Function(Uint8List uint8list, String fileName);
