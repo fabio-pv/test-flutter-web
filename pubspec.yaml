@@ -27,6 +27,8 @@ dependencies:
   excel: ^1.1.5
   date_range_picker: ^1.0.6
   intl: ^0.16.1
+  flutter_dropzone: ^1.0.9
+  material_design_icons_flutter: ^4.0.5555
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,4 +1,5 @@
 import 'package:city_hours/Screens/HomeScreen.dart';
+import 'package:city_hours/Screens/TestFile.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +16,10 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         accentColor: Colors.green[700],
       ),
-      initialRoute: HomeScreen.ROUTE,
+      initialRoute: TestFile.ROUTE,
       routes: {
         HomeScreen.ROUTE: (context) => HomeScreen(),
+        TestFile.ROUTE: (context) => TestFile(),
       },
     );
   }
