@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'City Hours',
       theme: ThemeData(
         primaryColor: Colors.green,
-        accentColor: Colors.green[300],
+        accentColor: Colors.green[700],
       ),
       initialRoute: HomeScreen.ROUTE,
       routes: {
