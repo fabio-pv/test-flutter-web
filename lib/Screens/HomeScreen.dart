@@ -183,12 +183,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           fontSize: 35,
                           fontWeight: FontWeight.bold),
                     ),
-                    Text(
-                      'Total de horas',
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
-                    ),
                     SizedBox(
                       height: 20,
                     ),
